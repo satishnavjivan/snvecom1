@@ -43,7 +43,7 @@ export const Breadcrumbs = () => {
         <ol className="breadcrumb">
           <li>
             <Link href={'/'}>
-                <a>HOME</a>
+                HOME
             </Link>
           </li>
           {breadcrumbs.map((breadcrumb, i) => {

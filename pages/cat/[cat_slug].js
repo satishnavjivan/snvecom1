@@ -36,7 +36,6 @@
         return (
             <Layout headerFooter={headerFooter || {}}>
                 
-                <a onClick={InputClicl}>Go Cat </a>
                 <Products products={products}/>
             </Layout>
         )

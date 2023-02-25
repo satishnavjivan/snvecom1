@@ -23,7 +23,7 @@
     }else{
         return (
             <Layout headerFooter={headerFooter || {}}>
-                <Categories categories={categories || {}}></Categories>
+               <Categories categories={categories || {}}></Categories>
             </Layout>
         )
     }
